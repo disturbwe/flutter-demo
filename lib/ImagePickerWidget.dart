@@ -48,7 +48,7 @@ class SaveLocalDataPageState extends State<SaveLocalDataPage> {
   _openGallery() async {
     //实现识别二维码图片的功能，调用了免费接口
     try {
-      var image = await ImagePicker.pickImage(source: ImageSource.gallery);
+      // var image = await ImagePicker.pickImage(source: ImageSource.gallery);
 //       FormData formData = new FormData.from({
 //    "img_file": new UploadFileInfo(image)
 // });
