@@ -52,13 +52,13 @@ class SaveLocalDataPageState extends State<SaveLocalDataPage> {
 //       FormData formData = new FormData.from({
 //    "img_file": new UploadFileInfo(image)
 // });
-      var url = "https://api.qzone.work/api/qr.decode";
+      // var url = "https://api.qzone.work/api/qr.decode";
       //向指定URL发送GET请求
-      var response = await http.post(url, body: fileList);
-      var repos = json.decode(response.body);
-      setState(() {
-        print(repos['msg']);
-      });
+      //var response = await http.post(url, body: fileList);
+      //var repos = json.decode(response.body);
+      // setState(() {
+      //   print(repos['msg']);
+      // });
     } catch (e) {
       print(e);
       Toast.show("检测到错误", context,
